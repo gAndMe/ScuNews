@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+	>
+    <TextView
+        android:id="@+id/notice_title"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:textSize="22sp"
+	    android:textColor="#000000"
+	    android:ellipsize="end"
+	    android:maxLines="2"
+        android:text="住宅小区20#楼总平面批前公示" 
+        />
+    <TextView
+        android:id="@+id/notice_time"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:textSize="14sp"
+	    android:textColor="#AAAAAA"
+        android:text="发布日期：2015-03-14" 
+        />
+    
+</LinearLayout>

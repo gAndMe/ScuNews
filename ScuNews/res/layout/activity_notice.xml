@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+   	android:layout_width="match_parent"
+	android:layout_height="wrap_content" 
+	>
+	<RelativeLayout 
+	    android:layout_width="match_parent"   
+	    android:layout_height="44dp"
+	    android:background="#000000"
+	    android:id="@+id/bar_title"
+	    >
+	    <RelativeLayout 
+		    android:id="@+id/backtxt_btndiy"
+		    android:layout_width="wrap_content"   
+		    android:layout_height="wrap_content"
+		    android:padding="10dp"
+		    >
+		    <ImageView 
+		        android:id="@+id/backimg_retrun"
+		        android:adjustViewBounds="true"
+			    android:layout_width="wrap_content"   
+			    android:layout_height="24dp"
+			    android:scaleType="fitStart"
+				android:layout_centerVertical="true"
+		   		android:src="@drawable/backimg"
+		   		/>
+	    
+		    <TextView 
+		        android:id="@+id/backtxt_retrun"
+		        android:layout_toRightOf="@id/backimg_retrun"
+			    android:layout_width="wrap_content"   
+			    android:layout_height="wrap_content"
+				android:layout_marginLeft="10dp"
+				android:layout_centerVertical="true"
+				android:textSize="18sp"
+				android:textColor="#FFFFFF"
+		        android:text="返回" />
+	    </RelativeLayout>
+		    
+	    <TextView  
+	        android:id="@+id/titletext"
+		    android:layout_width="wrap_content"   
+		    android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_centerHorizontal="true"
+			android:layout_centerVertical="true"
+			android:textSize="22sp"
+			android:textColor="#FFFFFF"
+	        android:text="学院新闻" />
+	</RelativeLayout>
+  				
+    <ListView 
+        android:id="@+id/listview"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+        />
+</LinearLayout>
